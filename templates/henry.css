@@ -1,0 +1,18 @@
+
+
+@font-face {
+    font-family: "rpgfont";
+    src: url("gaming.ttf")
+   
+}
+
+body { background-color: #FBEEC1;}
+
+header{ color: rgb(0, 0, 0);
+        text-align: center;
+    font-size: 4.5ch;
+font-family: "rpgfont";}
+    
+p{font-size: 2.5ch;
+
+}
