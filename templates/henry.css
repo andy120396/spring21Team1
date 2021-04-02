@@ -27,7 +27,7 @@ footer {
  
  section {
     display: block;
-    float: left;
+ 
     left: 40px;
     position:relative;  top:125px;
   }
