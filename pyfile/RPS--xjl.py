@@ -38,9 +38,9 @@ while True:
         print(f"WOW,Both players selected {user_action}. what a coincidence.It's a tie!")
     elif user_action == "rock":
         if computer_action == "scissors":
-            print("Rock have destroy scissors! You win the round! Congratulation!🎉🎉🎉")
+            print("Rock have destroy scissors! You win the round! Congratulation!🎉")
         else:
-            print("Paper have trap rock! You lose the round.😭😭😭")
+            print("Paper have trap rock! You lose the round.😭")
 
 
     elif user_action == "paper":
