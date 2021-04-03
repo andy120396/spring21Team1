@@ -23,22 +23,26 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
- }
+}
  
- section {
+section {
     display: block;
  
     left: 40px;
     position:relative;  top:125px;
-  }
+}
 
-  aside {
+aside {
     width: 30%;
     right: 40px;
     float: right;
     position:relative;  top:125px;
     line-height: 2;
-  }
+}
 
-    img { background-color: transparent;}
+img { background-color: transparent;}
 
+div.wrap {
+  width:2400px;
+  margin:0 auto;
+}
