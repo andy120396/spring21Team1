@@ -2,6 +2,7 @@ import os
 from flask import Flask, render_template, Blueprint
 from dotenv import load_dotenv
 from game_utils.rock_paper_scissors import *
+from routes import game_routes
 
 #app = Flask(__name__)
 
@@ -15,13 +16,13 @@ def create_app():
     secret_key = os.environ.get("SECRET_KEY", "my super secret")
     testing = False
     app = Flask(__name__, instance_relative_config=True)
-    app.config.from_mapping(ENV=app_env, SECRET_KEY=secret_key, TESTING=testing)
+    app.config.from_mapping(ENV=app_enviro, SECRET_KEY=secret_key, TESTING=testing)
     app.register_blueprint(game_routes)
     return app
 
 if __name__ == '__main__':
-    rpc_app = create_app()
-	rps_app.run()
+    rps_app = create_app()
+    rps_app.run()
 
 #Andy Liu
 #Anzar Anwar
