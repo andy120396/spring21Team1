@@ -8,15 +8,18 @@ body {
     src: url("gaming.ttf")
 }
 
-body { background-color: #FBEEC1;
-}
-
 header{ 
     text-align: center;
     font-size: 43px;
     font-family: "rpgfont";
 }
-    
+h1 {
+    font-family: "rpgfont";
+
+
+
+
+}    
 p {
     font-size: 25px;
     font-family: "rpgfont";
