@@ -42,10 +42,3 @@ def results(choice=None):
         computer_choice=computer_choice,
         results_message=results_message
     )
-
-#Edited by Xinjie Lin 4/7/2021 6:38 PM
-@game_routes.route('/')
-def index():
-    random_number = random.randint(1,1000)
-    return render_template('index.html',random_number = random_number)
-#End of Edit

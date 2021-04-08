@@ -9,19 +9,15 @@ body {
 }
 
 header{ 
-    text-align: center;
-    font-size: 43px;
+    font-size: 25px;
     font-family: "rpgfont";
 }
 h1 {
     font-family: "rpgfont";
-
-
-
-
+    font-size: 25px
 }    
 p {
-    font-size: 25px;
+    font-size: 17px;
     font-family: "rpgfont";
 }
 
@@ -47,9 +43,15 @@ aside {
     line-height: 2;
 }
 
-img { background-color: transparent;}
-
 div.wrap {
   width:2400px;
   margin:0 auto;
 }
+
+label{
+    font-family: "rpgfont";
+}
+
+
+option{
+    font-family: "rpgfont";}
