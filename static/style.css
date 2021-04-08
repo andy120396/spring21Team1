@@ -1,5 +1,52 @@
 body {
-    background: blue;
-    color: yellow;
+    background-color: #FBEEC1;
     text-align: center;
+}
+
+@font-face {
+    font-family: "rpgfont";
+    src: url("gaming.ttf")
+}
+
+body { background-color: #FBEEC1;
+}
+
+header{ 
+    text-align: center;
+    font-size: 43px;
+    font-family: "rpgfont";
+}
+    
+p {
+    font-size: 25px;
+    font-family: "rpgfont";
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+ 
+section {
+    display: block;
+ 
+    left: 40px;
+    position:relative;  top:125px;
+}
+
+aside {
+    width: 30%;
+    right: 40px;
+    float: right;
+    position:relative;  top:125px;
+    line-height: 2;
+}
+
+img { background-color: transparent;}
+
+div.wrap {
+  width:2400px;
+  margin:0 auto;
 }
