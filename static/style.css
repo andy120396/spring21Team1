@@ -14,12 +14,12 @@ body {
 }
 header {
     width: 100%;
-    text-align: left;
+    font-family: "rpgfont";
     }
 
 
 .bar{ display: inline-block;
-    font-family: 'rpgfont';
+    font-family: "rpgfont";
     color: white;
 
 
