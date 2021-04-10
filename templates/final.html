@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+<<<<<<< HEAD
         <link rel="stylesheet" href='static/style.css' />
+=======
+        <link rel="stylesheet" href='style/static.css' />
+>>>>>>> 7d93d6e27a9641a1da21a359ddb98c9649245d35
         </head>
 <body>
   <header style="text-align:center; font-family: 'rpgfont';">Rock Paper Scissor Simulator</header>
@@ -13,6 +17,8 @@
             <li style="display: inline-block;font-family: 'rpgfont' ;"><a href="final.html" style="display:block; padding: 8px; color: black; background-color: whitesmoke;">Final</a></li>
           </ul>	
         </nav> 
+
+        <hr style="background-color: gray; text-align: center; height: 5px;">
     
 
         
@@ -20,9 +26,21 @@
     <p>The computer chose: {{ computer_choice }}</p>
     <p>Results: {{ results_message }}</p></section>
     
-    <footer style="background-color: whitesmoke;color: black;">
-      <p><b>Authors:</b> Andy, Jenna, Anzar, Huaiyuan, Xinjie</p>
-    </footer>  
+    <style>
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: whitesmoke;
+        color: black;
+        text-align: center;
+      }
+      </style>
+      
+      <div class="footer">
+        <p><b>Authors:</b> Andy, Jenna, Anzar, Huaiyuan, Xinjie</p>
+      </div>
 </body>
 
 </html>
