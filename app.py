@@ -6,9 +6,9 @@ from routes import game_routes
 
 #app = Flask(__name__)
 
-#@app.route('/')
-#def index():
-#    return render_template('index.html')
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 def create_app():
     load_dotenv()
@@ -25,10 +25,10 @@ if __name__ == '__main__':
     rps_app.run()
 
 #Edited by Xinjie Lin 4/7/2021 6:38 PM
-@app.route('/')
-def index():
-    random_number = random.randint(1,1000)
-    return render_template('index.html',random_number = random_number)
+#@app.route('/')
+#def index():
+#    random_number = random.randint(1,1000)
+#    return render_template('index.html',random_number = random_number)
 #End of Edit
 
 #Andy Liu
