@@ -1,5 +1,5 @@
 from flask import Flask, make_response, Blueprint, request, render_template
-from game_utils.rock_paper_scissors import *
+from game_utils.rock_paper_scissors import random_choice
 import os
 
 app = Flask(__name__)
