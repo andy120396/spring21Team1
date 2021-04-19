@@ -1,10 +1,10 @@
 import os
-from flask import Flask, render_template, Blueprint
+from flask import Flask, render_template, Blueprint, request
 from dotenv import load_dotenv
 from game_utils.rock_paper_scissors import *
 from routes import game_routes
 
-#app = Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def index():
