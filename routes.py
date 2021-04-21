@@ -12,41 +12,6 @@ def index():
     print("VISITING THE START PAGE")
     return render_template("index.html")
 
-# @game_routes.route("/results", methods=["GET", "POST"])
-# def results(choice=None):
-#     print("VISITING THE RESULTS PAGE")
-#     print("REQUEST PARAMS:", dict(request.args))
-#     print("REQUEST VALUES:", dict(request.values))
-
-#     options = ["rock", "paper", "scissors"]
-
-#     if "choice" in request.args:
-#         user_choice = request.args["choice"]
-#     elif "choice" in request.values:
-#         user_choice = request.values["choice"]
-#     else:
-#         user_choice = "rock"
-
-#     if user_choice not in options:
-#         user_choice = "rock"
-
-#     computer_choice = random_choice(options)
-#     winning_choice = determine_winner(user_choice, computer_choice)
-
-#     if winning_choice:
-#         if winning_choice == user_choice:
-#             results_message = WIN_MESSAGE
-#         elif winning_choice == computer_choice:
-#             results_message = LOSE_MESSAGE
-#     else:
-#         results_message = TIE_MESSAGE
-
-#     return render_template("final.html",
-#         user_choice=user_choice,
-#         computer_choice=computer_choice,
-#         results_message=results_message
-#     )
-
 @game_routes.route("/results", methods=["GET", "POST"])
 def results():
     try:
